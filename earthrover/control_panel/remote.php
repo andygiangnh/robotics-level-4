@@ -23,17 +23,17 @@ gpio_initialise(); // initialising the GPIO pins
 <div align="center" id='box_outer'>
 	<!-- =================Direction Buttons=================================================== -->
 	<div class='box_row'>
-		<input  class="button"  type="submit" onclick="button_direction('f');" value="FWD"/>
+		<input  class="button"  type="submit" onclick="button_direction('F');" value="FWD"/>
 	</div>
 	<br />
 	<div class='box_row'>
-		<input class="button" style="float:left" type="submit" onclick="button_direction('l');" value="LEFT"/>
-		<input class="button" type="submit" onclick="button_direction('s');" value="STOP"/>
-		<input  class="button" style="float:right" type="submit" onclick="button_direction('r');" value="RIGHT"/>
+		<input class="button" style="float:left" type="submit" onclick="button_direction('L');" value="LEFT"/>
+		<input class="button" type="submit" onclick="button_direction('S');" value="STOP"/>
+		<input  class="button" style="float:right" type="submit" onclick="button_direction('R');" value="RIGHT"/>
 	</div>
 	<br />
 	<div class='box_row'>
-			<input  class="button" type="submit" onclick="button_direction('b');" value="BACK"/>
+			<input  class="button" type="submit" onclick="button_direction('B');" value="BACK"/>
 	</div>
 	<!-- ================================================================================= -->
 	
