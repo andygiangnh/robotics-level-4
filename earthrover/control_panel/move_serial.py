@@ -14,7 +14,6 @@ def main():
     
     command = sys.argv[1]
     if command in ['F', 'B', 'L', 'R', 'S']:
-            print("Send command to Arduino: " + user_input)
             str_to_send = command + "\n"
             ser.write(str_to_send.encode('utf-8'))
 

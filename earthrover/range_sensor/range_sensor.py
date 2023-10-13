@@ -11,8 +11,8 @@ import util as ut
 local_path=os.path.dirname(os.path.realpath(__file__))
 
 
-TRIG = 23 
-ECHO = 24
+TRIG = 16 
+ECHO = 18
 
 GPIO.setmode(GPIO.BCM)
 
