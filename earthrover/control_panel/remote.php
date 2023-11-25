@@ -23,17 +23,17 @@ gpio_initialise(); // initialising the GPIO pins
 <div align="center" id='box_outer'>
 	<!-- =================Direction Buttons=================================================== -->
 	<div class='box_row'>
-		<input  class="button"  type="submit" onclick="button_direction('F');" value="FWD"/>
+		<input  class="button"  type="submit" onclick="button_direction('F');" value="TIẾN"/>
 	</div>
 	<br />
 	<div class='box_row'>
-		<input class="button" style="float:left" type="submit" onclick="button_direction('L');" value="LEFT"/>
-		<input class="button" type="submit" onclick="button_direction('S');" value="STOP"/>
-		<input  class="button" style="float:right" type="submit" onclick="button_direction('R');" value="RIGHT"/>
+		<input class="button" style="float:left" type="submit" onclick="button_direction('L');" value="TRÁI"/>
+		<input class="button" type="submit" onclick="button_direction('S');" value="DỪNG"/>
+		<input  class="button" style="float:right" type="submit" onclick="button_direction('R');" value="PHẢI"/>
 	</div>
 	<br />
 	<div class='box_row'>
-			<input  class="button" type="submit" onclick="button_direction('B');" value="BACK"/>
+			<input  class="button" type="submit" onclick="button_direction('B');" value="LÙI"/>
 	</div>
 	<!-- ================================================================================= -->
 	
@@ -58,6 +58,10 @@ gpio_initialise(); // initialising the GPIO pins
 		</script>
 	</div>
 	<!-- ================================================================================== -->
+	<div>
+		<input id='radio1' type='radio' name='web_control' value='control_on' onclick="trigger_web_control('ON');"> Bật 
+		<input type='radio' name='web_control' value='control_off' onclick="trigger_web_control('OFF');"> Tắt <br/>
+	</div>
 </div>
 
 </body>

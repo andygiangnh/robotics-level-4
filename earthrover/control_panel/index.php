@@ -22,8 +22,8 @@ $host=$_SERVER['SERVER_ADDR'];//192.168.1.20
 $path=rtrim(dirname($_SERVER["PHP_SELF"]), "/\\"); //earthrover
 
 echo"<div align='center' id='box_outer'>";//------------------------
-	echo"<b align='center' style='font-size:40px;color:#0000b3'>Earth Rover</b>";
-	echo"<a href='readme/' target='_blank'><img style='float:right' src='/earthrover/control_panel/css/images/earthrover.png' height='60px'></a>";
+	echo"<b align='center' style='font-size:40px;color:#0000b3'>Robot AI - Fire Fighter</b>";
+	echo"<a href='readme/' target='_blank'><img style='float:right' src='/earthrover/control_panel/css/images/robot_icon.png' height='60px'></a>";
 	echo"<div align='center' class='box_inner'>";//------------------------
 		//Range Sensor block
 		echo"<div class='box_controls' style='width:15%'>";

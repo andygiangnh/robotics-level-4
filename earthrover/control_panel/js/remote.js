@@ -11,6 +11,14 @@ $(document).keydown(function(e){
     	 button_direction('S');
 });
 
+// Trigger Web remote control
+function trigger_web_control(val) {
+    if(val == 'ON')
+        $.get("http://192.168.1.15:5000/", crossDomain=true)
+    else if(val == 'OFF')
+    $.get("http://192.168.1.15:5000/close", crossDomain=true)
+}
+
 //---------DIRECTION---------------------------------
 function button_direction(val)
 {
