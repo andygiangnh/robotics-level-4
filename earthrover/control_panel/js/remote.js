@@ -15,12 +15,7 @@ $(document).keydown(function(e){
 function button_direction(val)
 {
 	console.log("button val:" + val);
-	// $.post("ajax_direction.php",
-  $.post("move_serial.php",
-    {
-      direction: val
-    }
-    );
+	$.get("http://192.168.1.15:5000/move/" + val, crossDomain=true)
 }
 
 //---------SPEED--------------------------------------
